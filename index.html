@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task|Simple-Calc</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <main>
+    <h1>Simple Calculator</h1>
+    <!-- Calculator input form -->
+     <form id="calcForm">
+        <div class="form-group">
+           <input type="text" name="num1" class="control" placeholder='Input First Number' autocomplete= "off">
+           <input type="text" name="num2" class="control" placeholder='Input Second Number' autocomplete= "off">
+        </div>
+          <select name="operation" class="control opt">
+            <option  disabled>..select operator..</option>
+            <option value="Addition">+</option>
+            <option value="Subtraction">-</option>
+            <option value="Multiply">x</option>
+            <option value="Division">/</option>
+          </select>
+        <input type="submit" value="process" class="btn">
+    </form>
+      <div id="result"></div>
+  </main>
+  <footer>
+    <p>made with love by Adetunji Adebowale 
+      <a href="https://twitter.com/kooljoe247">@kooljoe247</a>
+    </p>
+  </footer>
+  <script type="text/javascript" src="calc.js">
+  </script>
+</body>
+</html>
