@@ -8,6 +8,7 @@ body {
  background-color: #2C3C40;
  color: #ffff;
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ height:auto;
 }
 
 main {
@@ -109,7 +110,7 @@ footer  a{
 @media screen and (min-width:550px) {
   main {
    width: 80%;
-   height: 80%;
+   height: 500px;
    margin: 1.5rem auto;
   }
 }
