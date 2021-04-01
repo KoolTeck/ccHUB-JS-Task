@@ -11,7 +11,16 @@ body {
 }
 
 main {
- margin: 100px auto;
+  margin: 0 auto;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.container {
+ margin: 0 auto;
  width: 80%;
  margin-top: 10%;
  padding: 2rem;
@@ -20,7 +29,7 @@ main {
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.63);
 }
 
-main > p {
+.container > p {
  text-align: center;
  text-transform: capitalize;
  padding-top: 5px;
@@ -30,6 +39,11 @@ main > p {
   main {
    width: 50%;
   }
+
+  .opt {
+ width: 68%;
+}
+
 }
 
 h1 {
@@ -57,8 +71,12 @@ input::placeholder {
   font-size: 1.2rem;
   padding: 5px;
 }
-.opt {
- width: 70%;
+
+.f-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 .btn {
@@ -103,4 +121,19 @@ footer  {
 footer  a{
   text-decoration: none;
   color:  #D41C63;
+}
+
+
+@media screen and (max-width: 500px) {
+  main {
+   width: 80%;
+  }
+
+  .btn {
+    width: auto;
+  }
+
+  main, .container {
+    width: auto;
+  }
 }

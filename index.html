@@ -6,13 +6,15 @@
 </head>
 <body>
  <main>
-    <h1>Simple Calculator</h1>
+  <div class="container">
+      <h1>Simple Calculator</h1>
     <!-- Calculator input form -->
      <form id="calcForm">
         <div class="form-group">
            <input type="text" name="num1" class="control" placeholder='Input First Number' autocomplete= "off">
            <input type="text" name="num2" class="control" placeholder='Input Second Number' autocomplete= "off">
         </div>
+        <div class="form-group f-inline"> 
           <select name="operation" class="control opt">
             <option  disabled>..select operator..</option>
             <option value="Addition">+</option>
@@ -21,8 +23,10 @@
             <option value="Division">/</option>
           </select>
         <input type="submit" value="process" class="btn">
+        </div>
     </form>
       <div id="result"></div>
+  </div>
   </main>
   <footer>
     <p>made with love by Adetunji Adebowale 
