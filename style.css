@@ -109,7 +109,7 @@ footer  a{
 @media screen and (min-width:550px) {
   main {
    width: 80%;
-   height: auto;
-   margin: 10px auto;
+   height: 80vh;
+   margin: 1.5rem auto;
   }
 }
