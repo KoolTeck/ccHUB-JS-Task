@@ -11,7 +11,7 @@ body {
 }
 
 main {
- margin: 100px auto;
+ margin: 0 auto;
  width: 80%;
  margin-top: 10%;
  padding: 2rem;
@@ -29,6 +29,7 @@ main > p {
 @media screen and (min-width:950px) {
   main {
    width: 50%;
+   margin: 100px auto;
   }
 }
 
