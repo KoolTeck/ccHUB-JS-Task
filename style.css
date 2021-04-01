@@ -108,10 +108,12 @@ footer  a{
 
 @media screen and (max-width:550px) {
   main {
-   width: 80%;
+   width: 90%;
+   margin-top: 10rem;
   }
 
   .form-group {
-     margin: 2rem;
+     margin: 4rem;
+     font-size: 1.5rem;
    }
 }
