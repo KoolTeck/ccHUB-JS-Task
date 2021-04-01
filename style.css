@@ -107,7 +107,7 @@ footer  a{
 }
 
 
-@media screen and (min-width:550px) {
+@media screen and (max-width:550px) {
   main {
    width: 80%;
    height: 500px;
