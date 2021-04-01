@@ -111,6 +111,7 @@ footer  a{
   main {
    width: 80%;
    height: 500px;
-   margin: 1.5rem auto;
+   margin: 1.5rem  auto;
+   margin-top: 40%;
   }
 }
