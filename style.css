@@ -104,3 +104,12 @@ footer  a{
   text-decoration: none;
   color:  #D41C63;
 }
+
+
+@media screen and (min-width:550px) {
+  main {
+   width: 80%;
+   height: auto;
+   margin: 10px auto;
+  }
+}
