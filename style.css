@@ -110,6 +110,7 @@ footer  a{
   main {
    width: 90%;
    margin-top: 10rem;
+   background: red;
   }
 
   .form-group {
