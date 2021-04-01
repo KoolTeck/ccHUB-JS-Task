@@ -110,8 +110,7 @@ footer  a{
 @media screen and (max-width:550px) {
   main {
    width: 80%;
-   height: 500px;
-   margin: 1.5rem  auto;
-   margin-top: 40%;
+   height: auto;
+   margin:   auto;
   }
 }
