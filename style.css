@@ -38,7 +38,6 @@ main {
 @media screen and (min-width:950px) {
   main {
    width: 50%;
-   margin: 100px auto;
   }
 
   .opt {
@@ -102,8 +101,10 @@ input::placeholder {
   color: #D41C63;
 } 
 
-.result {
+.result  {
  width: 98%;
+ padding: 1rem;
+ margin: 4rem;
 }
 
 .alert-success {
@@ -122,6 +123,7 @@ footer  {
 footer  a{
   text-decoration: none;
   color:  #D41C63;
+  font-size: 1.5rem;
 }
 
 
